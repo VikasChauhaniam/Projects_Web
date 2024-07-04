@@ -1,0 +1,45 @@
+*{                            /* always write this */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{                /* always write this */
+    height: 100vh;
+    overflow-x: hidden; /* It stop x-axis movement*/
+    overflow-y: auto;
+    perspective: 10px;   /* for 3d position element, distance between eyes and screen*/
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;       
+    z-index: -1; 
+}   
+
+.box{
+    border: 2px solid black;
+    
+}
+
+#box1{
+   background-color: red;
+   transform: translateZ(-200px) scale(200);
+}
+
+#box2{
+    background-color: green;
+    transform: translateZ(-10px) scale(10);
+ }
+
+ #box3{
+    background-color: blue;
+ }
+
+#box1, #box2{
+    position: absolute;  
+
+   
+}
