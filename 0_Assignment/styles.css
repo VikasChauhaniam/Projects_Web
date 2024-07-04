@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    height: 100%;
+    width: 100%;
+    display: grid;
+    /* background-color: yellow; */
+    position: absolute;
+    display: flex;
+    justify-content: center;  /*horizontal center*/
+    align-items: center;      /*vertical center*/
+    
+    
+}
+
+.box{
+    width: 100px;
+    height: 36px;
+    background-color: #D4493B;
+    color: white;
+    /* margin: auto; */
+   
+    box-shadow: 2px 3px 5px grey;
+    display: flex;
+    justify-content: center;  /*horizontal center*/
+    align-items: center;      /*vertical center*/ 
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.box::before{
+  content: "";
+  position:absolute;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s ease;
+}
+
+
+.box:hover::before{
+    transform: scaleX(1);
+  }
+
+
+
+
