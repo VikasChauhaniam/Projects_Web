@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.slider{
+    background-color: hsl(281, 89%, 26%);
+    background-image: linear-gradient(hsl(285, 91%, 52%), hsl(285, 91%, 52%));
+    background-repeat: no-repeat;
+}
+
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: yellow;
+    box-shadow: 0px 0px 12px 1px yellow;
+    transition: all 100ms ease-in;
+    position: relative;
+}
+
+.slider::-webkit-slider-thumb:hover{
+    background: #150823;
+    outline: yellow 1px solid;
+
+}
+
+.slider:focus{
+    outline: yellow 1px solid;
+    
+}
+
+.active {
+    display: block;
+    /* transition: all linear ease-in-out; */
+}
+
+

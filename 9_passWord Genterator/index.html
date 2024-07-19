@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class=" wrapper text-white   w-[100vw] h-[100vh]   flex flex-col justify-center items-center bg-gradient-to-tr from-[#5b3a75] to-[#240456]"> <!---->
+        <div class="">  <!--w-[90%] max-w-[450px]-->
+            <!----------------------------------password heading------------------------>
+            <h1 class="opacity-[0.75] uppercase tracking-widest text-center leading-[1.2rem]">PASSWORD GENERATOR</h1> <!---->
+
+            <!----------------------------------password field------------------------>
+            <div class="result_container bg-[#150823] relative rounded-2xl border-b-[0.35rem] border-violet-600 my-4 mx-0 pt-[0.35rem] flex"> <!---->
+
+                <input readonly placeholder="Password"   name="" id="" data-passwordDisplay 
+                    class="result bg-transparent w-[100%] outline-none border-none text-yellow-200 px-4 py-[1.15rem]
+                    font-semibold text-2xl leading-[30px] tracking-[1px] pr-[3.25rem] 
+                    placeholder:absolute placeholder:top-[35%] placeholder:left-6 placeholder:text-2xl placeholder:leading-[30px]
+                    placeholder:opacity-[0.65] placeholder:text-yellow-200 placeholder:uppercase">  <!---->
+                
+                <button data-copy class="absolute top-[35%] right-[1.5rem]">   <!---->
+                    <span data-copyMsg class="absolute text-yellow-200 bg-[#9314D5] rounded-xl -left-3 -top-10 px-2 py-1 hidden"></span>
+                    <img src="./images/copy.svg" alt="" width="23" height="23" >
+                   
+                </button>
+
+            </div>
+
+            <!----------------------------------password box------------------------>
+            <div class="input_container bg-[#150823] relative rounded-2xl border-b-[0.35rem] border-violet-600  p-8 flex flex-col justify-center"> <!---->
+
+                <!-----length of passowd-->
+                <div class="length-conatiner flex justify-between items-center"> <!---->
+                    <h2 class="text-2xl">Password Length</h2> <!---->
+                    <p data-lengthNumber class="text-yellow-200 text-2xl">0</p> <!---->
+                </div>
+
+                <!-----Slider-------------->
+                <input type="range" min="1" max="20"   id="myRange" step="1" data-lengthSlider
+                       class="slider appearance-none w-[100%] h-3 rounded-2xl mt-8 mb-6 ">
+                        
+
+                <!-----password type check box-------------->
+                <div >
+                    <div class="check flex items-center my-4 gap-x-4">
+                        <input type="checkbox"  name="" id="uppercase" 
+                               class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
+                                       checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
+                                       before:font-semibold before:-top-[15%]">
+                        <label for="uppercase" class="text-md tracking-[0.75px]">Include Uppercase Letters</label>
+                    </div>
+
+                    <div class="check flex items-center my-4 gap-x-4">
+                        <input type="checkbox" name="" id="lowercase" 
+                        class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
+                        checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
+                        before:font-semibold before:-top-[15%]">
+                        <label for="lowercase " class="text-md tracking-[0.75px]">Include Lowercase Letters</label>
+                    </div>
+
+                    <div class="check flex items-center my-4 gap-x-4">
+                        <input type="checkbox" name="" id="numbers"
+                        class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
+                        checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
+                        before:font-semibold before:-top-[15%]">
+                        <label for="numbers" class="text-md tracking-[0.75px]">Include Numbers</label>
+                    </div>
+
+                    <div class="check flex items-center my-4 gap-x-4">
+                        <input type="checkbox" name="" id="symbols"
+                        class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
+                        checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
+                        before:font-semibold before:-top-[15%]">
+                        <label for="symbols" class="text-md tracking-[0.75px]">Include symbols</label>
+                    </div>  
+                </div>
+
+                <!-----strength and its power----->
+                <div class="strength-conatiner flex justify-between items-center mt-7 mb-8"> <!---->
+                    <p class=""> Strength</p> <!--text-2xl-->
+                    <div data-indicator class="w-6 h-6 bg-gray-400 rounded-full"></div> <!--  -->
+                </div>
+
+                <!----button------------------------>
+                <button class="generatorButton py-4 text-yellow-200 bg-[#9314D5] text-center rounded-xl border-b-[0.35rem] border-yellow-200 border-solid
+                font-semibold text-xl leading-[30px] tracking-[1px]">GENERTAE PASSWORD</button> <!---->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
