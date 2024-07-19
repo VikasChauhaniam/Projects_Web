@@ -27,7 +27,9 @@
                     placeholder:opacity-[0.65] placeholder:text-yellow-200 placeholder:uppercase">  <!---->
                 
                 <button data-copy class="absolute top-[35%] right-[1.5rem]">   <!---->
-                    <span data-copyMsg class="absolute text-yellow-200 bg-[#9314D5] rounded-xl -left-3 -top-10 px-2 py-1 hidden"></span>
+                    <span data-copyMsg class="absolute text-yellow-200 bg-[#9314D5] rounded-xl -left-3 -top-10 px-2 py-1 
+                     opacity-0 transition-all duration-300 ease-in-out"></span>
+
                     <img src="./images/copy.svg" alt="" width="23" height="23" >
                    
                 </button>
@@ -55,6 +57,7 @@
                                class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
                                        checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
                                        before:font-semibold before:-top-[15%]">
+
                         <label for="uppercase" class="text-md tracking-[0.75px]">Include Uppercase Letters</label>
                     </div>
 
@@ -63,6 +66,7 @@
                         class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
                         checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
                         before:font-semibold before:-top-[15%]">
+
                         <label for="lowercase " class="text-md tracking-[0.75px]">Include Lowercase Letters</label>
                     </div>
 
@@ -71,6 +75,7 @@
                         class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
                         checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
                         before:font-semibold before:-top-[15%]">
+
                         <label for="numbers" class="text-md tracking-[0.75px]">Include Numbers</label>
                     </div>
 
@@ -79,6 +84,7 @@
                         class="appearance-none w-[20px] h-[20px] border-[1px] border-cyan-400 border-solid relative  rounded-md
                         checked:bg-cyan-400 before:content-['✓'] before:text-[#150823] before:absolute before:text-xl
                         before:font-semibold before:-top-[15%]">
+
                         <label for="symbols" class="text-md tracking-[0.75px]">Include symbols</label>
                     </div>  
                 </div>

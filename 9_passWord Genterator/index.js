@@ -128,12 +128,16 @@ async function copyContent(){
         copyMsg.innerText = "failed";
     }   
 
-    //copy span visible
+    console.log("class add ho gyi");
     copyMsg.classList.add("active");
 
     setTimeout(() => {
         copyMsg.classList.remove("active");
     }, 1000);
+
+    console.log("class remove ho gyi");
+
+
 }
 
 

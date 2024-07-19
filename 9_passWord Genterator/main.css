@@ -45,8 +45,9 @@
 }
 
 .active {
-    display: block;
-    /* transition: all linear ease-in-out; */
+   opacity: 1;
+    
+
 }
 
 
