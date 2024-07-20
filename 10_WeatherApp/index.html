@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper-conatiner">
+
+            <!--------------------------------------------------------------------------------------header-->
+            <h1>मौसम ऐप</h1> 
+            
+            <!--------------------------------------------------------------------------------------tab Conatiner-->
+            <div class="tab-container">
+                <p class="tab" data-userWeather>आपका मौसम</p>
+                <p class="tab" data-searchWeather>मौसम खोजें</p>
+            </div>
+
+            <!-------------------------------------------------------------------------------------weather container-->
+            <div class="weather-container">
+
+                <!---------------------------------------for accessing location-->
+                <div class="grantLocation-conatiner">
+
+                    <img src="./Images/location.png" alt="" width="80" height="80" loading="lazy">
+                    <p class="GLA">Grant Location Access</p>
+                    <p class="AATGWI">Allow Access to get weather information</p>
+                    <button class="btn" data-grantAccess>GRANT ACCESS</button>
+                </div>
+
+                <!-----------------------------------------form seacrch weather UI------------>
+                <form action="" class="form-conatiner" data-searchForm>
+
+                    <input type="text" name="" id="" placeholder="अपना शहर खोजें..." data-searchInput>
+                    <button class="btn" type="submit"><img src="./Images/search.png" alt="" width="20" height="20" loading="lazy"></button>
+
+                </form>
+
+                <!---------------------------------------------Loading screen----------->
+                <div class="loading-container">
+                    <img src="./Images/loading.gif" alt="" width="150" height="150" loading="lazy">
+                    <p>LOADING...</p>
+                </div>
+
+                <!-----------------------------------------------your weather UI----->
+                <div class="user-info-conatiner">
+
+                    <!--name and flag-->
+                    <div class="name">
+                        <p data-cityName class="cityName"></p>
+                        <img src="" alt="" data-countryIcon class="flag">
+                    </div>
+
+                    <!--weather discription-->
+                    <p data-weatherDisc class="disc"></p>
+
+                    <!----wweather icon-->
+                    <img src="" alt="" data-weatherIcon class="weatherimg">
+
+                    <!----temperature-->
+                    <p data-temp class="temp"></p>
+
+                    <!----3 cards of weather-->
+                    <div class="parameter-conatiner">
+
+                        <!--card 1-->
+                        <div class="parameter">
+                               <img src="./Images/wind.png" alt="">
+                               <p>हवा की गति</p>
+                               <p data-windSpeed></p>
+                        </div>
+
+                        <!--card 2-->
+                        <div class="parameter">
+                            <img src="./Images/humidity.png" alt="">
+                            <p>नमी</p>
+                            <p data-humidity></p>
+                        </div>
+
+                        <!--card 3-->
+                        <div class="parameter">
+                            <img src="./Images/cloud.png" alt="">
+                            <p>बादल</p>
+                            <p data-cloudiness></p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+    </div>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>

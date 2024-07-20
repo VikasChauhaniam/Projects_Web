@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+
+.form-conatiner.active {
+
+        scale: 1;
+        opacity: 1;
+        display: block;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans',sans-serif;
+}
+
+:root {
+
+    --colorDark1: #112D4E;
+    --colorDark2: #3F72AF;
+    --colorLight1 : #DBE2EF;
+    --colorLight2 : #F9F7F7;
+}
+
+
+.wrapper-conatiner{
+
+    width: 100vw;
+    height: 100vh;
+    color: var(--colorLight2);
+    background-image: linear-gradient(160deg, var(--colorDark1) , var(--colorDark2) );
+    /* overflow: hidden; */
+    
+
+}
+/*------------------------------------------------------------------------------------------------------*/
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.tab-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.tab{
+    cursor: pointer;
+    font-size: 0.875rem;
+    letter-spacing: 1.75px;
+    padding: 5px 8px;
+}
+
+.current-tab {
+    background-color: rgba(168, 181, 201, 0.5);
+    border-radius: 4px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-block: 4rem;
+}
+
+
+.btn {
+    all: unset;
+    background-color: var(--colorDark2);
+    border-radius: 5px;
+
+    color: var(--colorLight2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    /* letter-spacing: 1.75px; */
+    padding: 10px 30px;
+}
+
+
+/*----------------------------------------------------GRANT------------------------------------------*/
+.grantLocation-conatiner{
+    display: none;
+}
+
+.grantLocation-conatiner.active{
+    
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+    /* height: 300px;
+    justify-content: space-between; */
+}
+
+.GLA {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.AATGWI{
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+
+    margin-top: 0.75rem;
+    margin-bottom: 1.75rem;
+    
+}
+
+
+
+/*----------------------------------------------------loader------------------------------------------*/
+.loading-container{
+    display: none;
+}
+
+.loading-container.active{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+
+    
+
+
+}
+
+/*------------------------------------------------------userinfor container-------------------------------------------*/
+
+.user-info-conatiner{
+    display: none;
+}
+
+.user-info-conatiner.active{
+    
+
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center ;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.name p{
+    font-size: 2rem;
+}
+
+.name img{
+    width: 30px;
+    height: 20px;
+
+}
+
+.disc{
+    font-size: 1rem;
+    font-weight: 200;
+    
+}
+
+.weatherimg{
+    width: 90px;
+    height: 90px;
+}
+
+.temp{
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.parameter-conatiner{
+    display: flex;
+    /* width: 50vw; */
+    /* justify-content: space-around; */
+
+}
+
+.parameter{
+   
+    width: 250px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0;
+     
+    background-color: rgba(219, 226, 239, 0.5);
+    border-radius: 5px;
+    padding: 1rem 0; 
+    margin: 20px 20px;
+}
+
+.parameter img{
+    width: 100px;
+    height: 100px;
+}
+
+.parameter p:first-of-type{
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.parameter p:last-of-type{
+    font-size: 1rem;
+    font-weight: 200;
+    
+}
+
+
+/*------------------------------------------------------search container-------------------------------------------*/
+
+.form-conatiner{
+    display: none;
+}
+.form-conatiner.active{
+    /*  */
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+
+    margin-bottom: 3rem;
+
+}
+
+.form-conatiner input{
+    all: unset;      
+
+    /* width: calc(100%-80px); */
+    width: 90%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: rgba(219, 226, 239, 0.5);
+    border-radius: 10px ;
+}
+
+.form-conatiner input::placeholder{
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.form-conatiner input:focus{
+    outline: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+.form-conatiner button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    padding: unset;
+}
+
