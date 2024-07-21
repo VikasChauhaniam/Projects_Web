@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Xfont';
+    src: url(./fonts/break_brush/BreakBrush.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+    color: beige;
+}
+
+.wrapper-container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(49, 220, 255, 1) 100%);
+    display: grid;
+    place-items: center;
+}
+
+.game-info{
+    
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: 0.5rem 3rem
+}
+
+.tic-tac-toe{
+    width: 90%;
+    max-width: 20rem;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 1rem;
+    padding: 2rem;
+    aspect-ratio: 1/1;
+    
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    font-size: 3rem;
+    font-family: XFont;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6{
+    border-bottom: 2px solid white;
+    
+}
+
+.b2, .b5, .b8{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: 0.5rem 2rem;
+
+    visibility: hidden; 
+}
+
+.btn.active{
+    visibility: visible;
+}
+
+.win{
+    background-color: lightgreen;
+}
+
+
+
