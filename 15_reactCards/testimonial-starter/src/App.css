@@ -1,0 +1,28 @@
+.refresh-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.refresh-btn{
+
+    padding-top: 18px;
+
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+
+.refresh-btn:hover{
+    color: white;
+    background-color:#b4161b;
+    transition: all 0.3s;
+}
