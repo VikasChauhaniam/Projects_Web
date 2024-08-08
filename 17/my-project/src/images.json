@@ -1,0 +1,151 @@
+
+{
+    "data":{
+        "AI":[
+            {
+                "id": "1",
+                "title": "AI image 1",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai1.png"
+            },
+            {
+                "id": "2",
+                "title": "AI image 2",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai2.png"
+            },
+            {
+                "id": "3",
+                "title": "AI image 3",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai3.png"
+            },
+            {
+                "id": "4",
+                "title": "AI image 4",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai4.png"
+            },
+            {
+                "id": "5",
+                "title": "AI image 5",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai5.png"
+            },
+            {
+                "id": "6",
+                "title": "AI image 6",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai6.png"
+            },
+            {
+                "id": "7",
+                "title": "AI image 7",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai7.png"
+            },
+            {
+                "id": "8",
+                "title": "AI image 8",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai8.png"
+            },
+            {
+                "id": "9",
+                "title": "AI image 9",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai9.png"
+            },
+            {
+                "id": "10",
+                "title": "AI image 10",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "/images/ai/ai10.png"
+            }
+        ],
+        "BlockChain":[
+            {
+                "id": "101",
+                "title": "Block chain image 1",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/blockchain/block1.png"
+            },
+            {
+                "id": "102",
+                "title": "Block chain image 2",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/blockchain/block2.png"
+            },
+            {
+                "id": "103",
+                "title": "Block chain image 3",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/blockchain/block3.png"
+            },
+            {
+                "id": "104",
+                "title": "Block chain image 4",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/blockchain/block4.png"
+            }
+
+        ],
+        "Projects":[
+            {
+                "id": "201",
+                "title": "random Project image 1",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/p/p1.png"
+            },
+            {
+                "id": "202",
+                "title": "random Project image 2",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/p/p2.png"
+            },
+            {
+                "id": "203",
+                "title": "random Project image 3",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/p/p3.png"
+            }
+            
+            
+        ],
+        "Cryptocurriencies":[
+            {
+                "id": "301",
+                "title": "Cryptocurriencies image 1",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/crypto/crypto1.png"
+            },
+            {
+                "id": "302",
+                "title": "Cryptocurriencies image 2",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/crypto/crypto2.png"
+            },
+            {
+                "id": "304",
+                "title": "Cryptocurriencies image 3",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/crypto/crypto4.png"
+            },
+            {
+                "id": "303",
+                "title": "Cryptocurriencies image 4",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/crypto/crypto3.png"
+            },
+            {
+                "id": "305",
+                "title": "Cryptocurriencies image 5",
+                "description":"Lorem ipsum dolor sit amet. Ea asperiores quia non dolor porro sit fugiat ipsa quo quia molestias aut dolor voluptatem id quia maxime a provident eveniet. Aut nihil consequatur et optio aliquid sit aliquid voluptatem qui sint reiciendis ex quibusdam fugit a perferendis",
+                "url" : "../images/crypto/crypto5.png"
+            }
+            
+        ]
+    }
+}    
+
+
